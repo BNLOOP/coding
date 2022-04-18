@@ -235,3 +235,48 @@ footer {
 }
 
 }
+
+
+/*========== pc ==========*/
+@media screen and (min-width:1024px) {
+    .gnb > li > a {padding: 20px;
+    }
+    
+    /* main */
+    section > h2 {
+        margin-top: 20px;
+        margin-bottom: 80px;
+        font-size: 20px;
+    }
+
+    
+    .coding-flex-box > div:first-child {
+       width: 55%;
+    }
+   
+    .coding-flex-box > div:last-child {
+       width: 25%;
+       text-align: center;
+    }
+
+    .coding-flex-box div:last-child > p {
+        font-size: 18px;
+    }
+
+    .coding-flex-box .coding-img > img {
+        width: 80%;
+    }
+
+
+
+    /* saying */
+    .saying p {
+        margin: 30px 20%;
+        font-size: 18px;
+    }
+
+    .saying strong {
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+}
